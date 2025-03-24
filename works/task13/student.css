@@ -1,0 +1,71 @@
+
+/* General page styling */
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+/* Container for the form */
+.container {
+width: 40%;
+background-color: white;
+margin: 50px auto;
+padding: 20px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+}
+/* Form heading */
+h1 {
+color: #333;
+}
+h2 {
+color: #555;
+}
+/* Input fields */
+input {
+width: 80%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+/* Search bar */
+#search_bar {
+width: 80%;
+padding: 10px;
+border: 1px solid #007BFF;
+border-radius: 5px;
+font-size: 16px;
+}
+/* Buttons */
+button {
+background-color: #4CAF50;
+color: white;
+padding: 10px 15px;
+border: none;
+cursor: pointer;
+font-size: 16px;
+border-radius: 5px;
+}
+button:hover {
+background-color: #45a049;
+}
+/* Clear Data Button */
+.clear-btn {
+background-color: #FF3B30;
+margin-left: 10px;
+}
+.clear-btn:hover {
+background-color: #D32F2F;
+}
+/* Student list output */
+.student-card {
+background-color: #e0f7fa;
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+font-size: 18px;
+}

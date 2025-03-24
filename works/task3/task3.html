@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                height:100vh;
+                background-color: white;
+
+            }
+            #G{ color: lightskyblue;
+                height:80px;
+                width:100px;
+                display: inline-block;
+                text-align: center;
+            }
+            #O{
+                color: orangered;
+                height:80px;
+                width:100px;
+                display: inline-block;
+                text-align: center;
+            }
+            #o{
+                color: yellow;
+                height:80px;
+                width:100px;
+                display: inline-block;
+                text-align: center;
+            }
+            #g{
+                color: lightgreen;
+                height:80px;
+                width:100px;
+                display: inline-block;
+                text-align: center;
+            }
+            #L{
+                color:lightgreen;
+                height:80px;
+                width:100px;
+                display: inline-block;
+                text-align: center;
+            }
+            #E{
+                color: orangered;
+                height:80px;
+                width:100px;
+                display: inline-block;
+                text-align: center;
+            }
+            .box:hover{
+                cursor: pointer;
+                scale: 1.4;
+            }
+            .h1{
+                text-align: center;
+            }
+        </style>
+
+    </head>
+</html>
+<body>
+    <div id="G" class="box">
+        <h1>G</h1>
+    </div>
+    <div id="O" class="box"><h1>O</h1></div>
+    <div id="o" class="box"><h1>O</h1></div>
+    <div id="g" class="box"><h1>G</h1></div>
+    <div id="L" class="box"><h1>L</h1></div>
+    <div id="E" class="box"><h1>E</h1></div>
+</br>
+
+    <div id = "div1"> Hello madhan</div>
+    <button onclick="document.write('everything should be override');">click here</button>
+    <script>
+        document.getElementById("div1").innerHTML="Hello World";
+    </script>
+    
+</body>
